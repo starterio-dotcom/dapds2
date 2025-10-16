@@ -1216,178 +1216,350 @@ const mt = "dap-ds-accordion", hr = e({
   events: {},
   displayName: "SystemUploadLine"
 });
+const DapDSButtonReact = a.forwardRef(function DapDSButtonReact(rp, rf) { return Tr(rp, rf); });
+const ArrowsArrowDownLineReact = no;
+const ArrowsArrowDownSFillReact = ro;
+const ArrowsArrowDownSLineReact = co;
+const ArrowsArrowLeftDownLineReact = oo;
+const ArrowsArrowLeftLLineReact = lo;
+const ArrowsArrowLeftLineReact = po;
+const ArrowsArrowLeftSFillReact = io;
+const ArrowsArrowLeftSLineReact = mo;
+const ArrowsArrowLeftUpLineReact = Do;
+const ArrowsArrowRightDownLineReact = No;
+const ArrowsArrowRightLLineReact = go;
+const ArrowsArrowRightLineReact = So;
+const ArrowsArrowRightSFillReact = Co;
+const ArrowsArrowRightSLineReact = yo;
+const ArrowsArrowRightUpLineReact = $o;
+const ArrowsArrowUpLineReact = uo;
+const ArrowsArrowUpSFillReact = Lo;
+const ArrowsArrowUpSLineReact = vo;
+const ArrowsExpandUpDownFillReact = Ro;
+const BuildingsHome6LineReact = wo;
+const BusinessCalendarLineReact = ho;
+const DapDSAccordionGroupReact = Wr;
+const DapDSAccordionReact = hr;
+const DapDSAnchorHeadingReact = Fr;
+const DapDSAvatarGroupReact = br;
+const DapDSAvatarReact = Ar;
+const DapDSBadgeReact = kr;
+const DapDSBannerReact = fr;
+const DapDSBreadcrumbItemReact = Br;
+const DapDSBreadcrumbReact = Ir;
+const DapDSCalendarCellReact = xr;
+const DapDSCalendarReact = Ur;
+const DapDSCalloutReact = Or;
+const DapDSCardActionsReact = Mr;
+const DapDSCardContentReact = Er;
+const DapDSCardImageReact = Gr;
+const DapDSCardReact = Kr;
+const DapDSCardSubtitleReact = Hr;
+const DapDSCardTitleReact = Pr;
+const DapDSCheckboxReact = Vr;
+const DapDSComboboxReact = jr;
+const DapDSCommandGroupReact = qr;
+const DapDSCommandItemReact = zr;
+const DapDSCommandReact = Jr;
+const DapDSContentSwitcherItemReact = Qr;
+const DapDSContentSwitcherReact = Xr;
+const DapDSCopyBoxInputReact = Yr;
+const DapDSDAPBadgeReact = Zr;
+const DapDSDataTableReact = _r;
+const DapDSDatePickerReact = ec;
+const DapDSDividerReact = ac;
+const DapDSFeedbackReact = tc;
+const DapDSFileInputListItemReact = sc;
+const DapDSFileInputListReact = nc;
+const DapDSFileInputReact = rc;
+const DapDSFormLabelReact = ao;
+const DapDSIconButtonReact = oc;
+const DapDSIconReact = cc;
+const DapDSInputGroupReact = to;
+const DapDSInputReact = lc;
+const DapDSLabelReact = dc;
+const DapDSLinkReact = pc;
+const DapDSListItemReact = ic;
+const DapDSModalReact = mc;
+const DapDSNavigationMenuItemReact = Dc;
+const DapDSNavigationMenuReact = Nc;
+const DapDSNotificationBadgeReact = gc;
+const DapDSNumberInputReact = Sc;
+const DapDSOfficialWebsiteBannerReact = Cc;
+const DapDSOptionItemReact = yc;
+const DapDSOptionListReact = $c;
+const DapDSOverlayReact = uc;
+const DapDSPagerReact = Lc;
+const DapDSPasswordInputReact = vc;
+const DapDSPopupReact = Rc;
+const DapDSRadioButtonReact = wc;
+const DapDSRadioGroupReact = so;
+const DapDSRatingReact = hc;
+const DapDSScrollAreaReact = Wc;
+const DapDSSearchReact = bc;
+const DapDSSelectReact = Ac;
+const DapDSSideNavGroupReact = kc;
+const DapDSSideNavItemReact = Fc;
+const DapDSSideNavReact = fc;
+const DapDSSkeletonReact = Ic;
+const DapDSSkipLinkReact = Bc;
+const DapDSSnackbarMessageReact = Tc;
+const DapDSSnackbarReact = xc;
+const DapDSSpinnerReact = Uc;
+const DapDSStackReact = Oc;
+const DapDSSwitchReact = Mc;
+const DapDSTOCReact = Xc;
+const DapDSTabGroupReact = Ec;
+const DapDSTabReact = Gc;
+const DapDSTableCellReact = Hc;
+const DapDSTableHeaderReact = Pc;
+const DapDSTableReact = Vc;
+const DapDSTableRowReact = Kc;
+const DapDSTextareaReact = jc;
+const DapDSTimeGridReact = Jc;
+const DapDSTimePickerReact = Qc;
+const DapDSTimelineItemReact = qc;
+const DapDSTimelineReact = zc;
+const DapDSToggleButtonReact = Yc;
+const DapDSTooltipReact = Zc;
+const DapDSTrayReact = _c;
+const DapDSTypographyReact = eo;
+const DesignEditLineReact = Wo;
+const DesignToolsLineReact = bo;
+const DeviceComputerLineReact = Ao;
+const DocumentClipboardLineReact = ko;
+const DocumentFileCopyLineReact = Fo;
+const DocumentFileImageLineReact = fo;
+const DocumentFileMusicLineReact = Io;
+const DocumentFileTextLineReact = Bo;
+const DocumentFileVideoLineReact = To;
+const DocumentFolderLineReact = xo;
+const DocumentFolderOpenLineReact = Uo;
+const HealthHeartFillReact = Oo;
+const HealthHeartLineReact = Mo;
+const OthersCookieLineReact = Eo;
+const SystemAddLineReact = Vo;
+const SystemAlertFillReact = jo;
+const SystemAlertLineReact = qo;
+const SystemCheckLine2React = Jo;
+const SystemCheckLineReact = zo;
+const SystemCheckboxBlankCircleFillCheckReact = Xo;
+const SystemCheckboxBlankCircleFillReact = Qo;
+const SystemCheckboxBlankCircleLineReact = Yo;
+const SystemCheckboxCircleFillReact = Zo;
+const SystemCheckboxCircleLineReact = _o;
+const SystemCloseCircleFillReact = el;
+const SystemCloseCircleLineReact = al;
+const SystemCloseFillReact = tl;
+const SystemCloseLineReact = sl;
+const SystemDeleteBinFillReact = nl;
+const SystemDeleteBinLineReact = rl;
+const SystemDownloadLineReact = cl;
+const SystemErrorWarningFillReact = ol;
+const SystemErrorWarningLineReact = ll;
+const SystemExternalLinkLineReact = dl;
+const SystemEyeLineReact = pl;
+const SystemEyeOffLineReact = il;
+const SystemForbidFillReact = ml;
+const SystemInformation2FillReact = Dl;
+const SystemInformationFillReact = Nl;
+const SystemInformationLineReact = gl;
+const SystemLightbulbFillReact = Sl;
+const SystemLoadingSpinnerReact = Cl;
+const SystemLockFillReact = yl;
+const SystemLockLineReact = $l;
+const SystemMenuLineReact = ul;
+const SystemMenuLineSReact = Ll;
+const SystemMore2LineReact = vl;
+const SystemMoreLineReact = Rl;
+const SystemSearchLineReact = wl;
+const SystemShareLineReact = hl;
+const SystemShieldCheckFillReact = Wl;
+const SystemShieldCheckLineReact = bl;
+const SystemStarFillReact = Al;
+const SystemSubtractLine2React = Fl;
+const SystemSubtractLineReact = kl;
+const SystemTimeFillReact = fl;
+const SystemTimeLineReact = Il;
+const SystemUpload2FillReact = Bl;
+const SystemUpload2LineReact = Tl;
+const SystemUploadLineReact = xl;
+const UserAccountCircleFillReact = Go;
+const UserAccountCircleLineReact = Ho;
+const UserUserFillReact = Po;
+const UserUserLineReact = Ko;
 export {
-  no as ArrowsArrowDownLineReact,
-  ro as ArrowsArrowDownSFillReact,
-  co as ArrowsArrowDownSLineReact,
-  oo as ArrowsArrowLeftDownLineReact,
-  lo as ArrowsArrowLeftLLineReact,
-  po as ArrowsArrowLeftLineReact,
-  io as ArrowsArrowLeftSFillReact,
-  mo as ArrowsArrowLeftSLineReact,
-  Do as ArrowsArrowLeftUpLineReact,
-  No as ArrowsArrowRightDownLineReact,
-  go as ArrowsArrowRightLLineReact,
-  So as ArrowsArrowRightLineReact,
-  Co as ArrowsArrowRightSFillReact,
-  yo as ArrowsArrowRightSLineReact,
-  $o as ArrowsArrowRightUpLineReact,
-  uo as ArrowsArrowUpLineReact,
-  Lo as ArrowsArrowUpSFillReact,
-  vo as ArrowsArrowUpSLineReact,
-  Ro as ArrowsExpandUpDownFillReact,
-  wo as BuildingsHome6LineReact,
-  ho as BusinessCalendarLineReact,
-  Wr as DapDSAccordionGroupReact,
-  hr as DapDSAccordionReact,
-  Fr as DapDSAnchorHeadingReact,
-  br as DapDSAvatarGroupReact,
-  Ar as DapDSAvatarReact,
-  kr as DapDSBadgeReact,
-  fr as DapDSBannerReact,
-  Br as DapDSBreadcrumbItemReact,
-  Ir as DapDSBreadcrumbReact,
-  Tr as DapDSButtonReact,
-  xr as DapDSCalendarCellReact,
-  Ur as DapDSCalendarReact,
-  Or as DapDSCalloutReact,
-  Mr as DapDSCardActionsReact,
-  Er as DapDSCardContentReact,
-  Gr as DapDSCardImageReact,
-  Kr as DapDSCardReact,
-  Hr as DapDSCardSubtitleReact,
-  Pr as DapDSCardTitleReact,
-  Vr as DapDSCheckboxReact,
-  jr as DapDSComboboxReact,
-  qr as DapDSCommandGroupReact,
-  zr as DapDSCommandItemReact,
-  Jr as DapDSCommandReact,
-  Qr as DapDSContentSwitcherItemReact,
-  Xr as DapDSContentSwitcherReact,
-  Yr as DapDSCopyBoxInputReact,
-  Zr as DapDSDAPBadgeReact,
-  _r as DapDSDataTableReact,
-  ec as DapDSDatePickerReact,
-  ac as DapDSDividerReact,
-  tc as DapDSFeedbackReact,
-  sc as DapDSFileInputListItemReact,
-  nc as DapDSFileInputListReact,
-  rc as DapDSFileInputReact,
-  ao as DapDSFormLabelReact,
-  oc as DapDSIconButtonReact,
-  cc as DapDSIconReact,
-  to as DapDSInputGroupReact,
-  lc as DapDSInputReact,
-  dc as DapDSLabelReact,
-  pc as DapDSLinkReact,
-  ic as DapDSListItemReact,
-  mc as DapDSModalReact,
-  Dc as DapDSNavigationMenuItemReact,
-  Nc as DapDSNavigationMenuReact,
-  gc as DapDSNotificationBadgeReact,
-  Sc as DapDSNumberInputReact,
-  Cc as DapDSOfficialWebsiteBannerReact,
-  yc as DapDSOptionItemReact,
-  $c as DapDSOptionListReact,
-  uc as DapDSOverlayReact,
-  Lc as DapDSPagerReact,
-  vc as DapDSPasswordInputReact,
-  Rc as DapDSPopupReact,
-  wc as DapDSRadioButtonReact,
-  so as DapDSRadioGroupReact,
-  hc as DapDSRatingReact,
-  Wc as DapDSScrollAreaReact,
-  bc as DapDSSearchReact,
-  Ac as DapDSSelectReact,
-  kc as DapDSSideNavGroupReact,
-  Fc as DapDSSideNavItemReact,
-  fc as DapDSSideNavReact,
-  Ic as DapDSSkeletonReact,
-  Bc as DapDSSkipLinkReact,
-  Tc as DapDSSnackbarMessageReact,
-  xc as DapDSSnackbarReact,
-  Uc as DapDSSpinnerReact,
-  Oc as DapDSStackReact,
-  Mc as DapDSSwitchReact,
-  Xc as DapDSTOCReact,
-  Ec as DapDSTabGroupReact,
-  Gc as DapDSTabReact,
-  Hc as DapDSTableCellReact,
-  Pc as DapDSTableHeaderReact,
-  Vc as DapDSTableReact,
-  Kc as DapDSTableRowReact,
-  jc as DapDSTextareaReact,
-  Jc as DapDSTimeGridReact,
-  Qc as DapDSTimePickerReact,
-  qc as DapDSTimelineItemReact,
-  zc as DapDSTimelineReact,
-  Yc as DapDSToggleButtonReact,
-  Zc as DapDSTooltipReact,
-  _c as DapDSTrayReact,
-  eo as DapDSTypographyReact,
-  Wo as DesignEditLineReact,
-  bo as DesignToolsLineReact,
-  Ao as DeviceComputerLineReact,
-  ko as DocumentClipboardLineReact,
-  Fo as DocumentFileCopyLineReact,
-  fo as DocumentFileImageLineReact,
-  Io as DocumentFileMusicLineReact,
-  Bo as DocumentFileTextLineReact,
-  To as DocumentFileVideoLineReact,
-  xo as DocumentFolderLineReact,
-  Uo as DocumentFolderOpenLineReact,
-  Oo as HealthHeartFillReact,
-  Mo as HealthHeartLineReact,
-  Eo as OthersCookieLineReact,
-  Vo as SystemAddLineReact,
-  jo as SystemAlertFillReact,
-  qo as SystemAlertLineReact,
-  Jo as SystemCheckLine2React,
-  zo as SystemCheckLineReact,
-  Xo as SystemCheckboxBlankCircleFillCheckReact,
-  Qo as SystemCheckboxBlankCircleFillReact,
-  Yo as SystemCheckboxBlankCircleLineReact,
-  Zo as SystemCheckboxCircleFillReact,
-  _o as SystemCheckboxCircleLineReact,
-  el as SystemCloseCircleFillReact,
-  al as SystemCloseCircleLineReact,
-  tl as SystemCloseFillReact,
-  sl as SystemCloseLineReact,
-  nl as SystemDeleteBinFillReact,
-  rl as SystemDeleteBinLineReact,
-  cl as SystemDownloadLineReact,
-  ol as SystemErrorWarningFillReact,
-  ll as SystemErrorWarningLineReact,
-  dl as SystemExternalLinkLineReact,
-  pl as SystemEyeLineReact,
-  il as SystemEyeOffLineReact,
-  ml as SystemForbidFillReact,
-  Dl as SystemInformation2FillReact,
-  Nl as SystemInformationFillReact,
-  gl as SystemInformationLineReact,
-  Sl as SystemLightbulbFillReact,
-  Cl as SystemLoadingSpinnerReact,
-  yl as SystemLockFillReact,
-  $l as SystemLockLineReact,
-  ul as SystemMenuLineReact,
-  Ll as SystemMenuLineSReact,
-  vl as SystemMore2LineReact,
-  Rl as SystemMoreLineReact,
-  wl as SystemSearchLineReact,
-  hl as SystemShareLineReact,
-  Wl as SystemShieldCheckFillReact,
-  bl as SystemShieldCheckLineReact,
-  Al as SystemStarFillReact,
-  Fl as SystemSubtractLine2React,
-  kl as SystemSubtractLineReact,
-  fl as SystemTimeFillReact,
-  Il as SystemTimeLineReact,
-  Bl as SystemUpload2FillReact,
-  Tl as SystemUpload2LineReact,
-  xl as SystemUploadLineReact,
-  Go as UserAccountCircleFillReact,
-  Ho as UserAccountCircleLineReact,
-  Po as UserUserFillReact,
-  Ko as UserUserLineReact
+  ArrowsArrowDownLineReact,
+  ArrowsArrowDownSFillReact,
+  ArrowsArrowDownSLineReact,
+  ArrowsArrowLeftDownLineReact,
+  ArrowsArrowLeftLLineReact,
+  ArrowsArrowLeftLineReact,
+  ArrowsArrowLeftSFillReact,
+  ArrowsArrowLeftSLineReact,
+  ArrowsArrowLeftUpLineReact,
+  ArrowsArrowRightDownLineReact,
+  ArrowsArrowRightLLineReact,
+  ArrowsArrowRightLineReact,
+  ArrowsArrowRightSFillReact,
+  ArrowsArrowRightSLineReact,
+  ArrowsArrowRightUpLineReact,
+  ArrowsArrowUpLineReact,
+  ArrowsArrowUpSFillReact,
+  ArrowsArrowUpSLineReact,
+  ArrowsExpandUpDownFillReact,
+  BuildingsHome6LineReact,
+  BusinessCalendarLineReact,
+  DapDSAccordionGroupReact,
+  DapDSAccordionReact,
+  DapDSAnchorHeadingReact,
+  DapDSAvatarGroupReact,
+  DapDSAvatarReact,
+  DapDSBadgeReact,
+  DapDSBannerReact,
+  DapDSBreadcrumbItemReact,
+  DapDSBreadcrumbReact,
+  DapDSButtonReact,
+  DapDSCalendarCellReact,
+  DapDSCalendarReact,
+  DapDSCalloutReact,
+  DapDSCardActionsReact,
+  DapDSCardContentReact,
+  DapDSCardImageReact,
+  DapDSCardReact,
+  DapDSCardSubtitleReact,
+  DapDSCardTitleReact,
+  DapDSCheckboxReact,
+  DapDSComboboxReact,
+  DapDSCommandGroupReact,
+  DapDSCommandItemReact,
+  DapDSCommandReact,
+  DapDSContentSwitcherItemReact,
+  DapDSContentSwitcherReact,
+  DapDSCopyBoxInputReact,
+  DapDSDAPBadgeReact,
+  DapDSDataTableReact,
+  DapDSDatePickerReact,
+  DapDSDividerReact,
+  DapDSFeedbackReact,
+  DapDSFileInputListItemReact,
+  DapDSFileInputListReact,
+  DapDSFileInputReact,
+  DapDSFormLabelReact,
+  DapDSIconButtonReact,
+  DapDSIconReact,
+  DapDSInputGroupReact,
+  DapDSInputReact,
+  DapDSLabelReact,
+  DapDSLinkReact,
+  DapDSListItemReact,
+  DapDSModalReact,
+  DapDSNavigationMenuItemReact,
+  DapDSNavigationMenuReact,
+  DapDSNotificationBadgeReact,
+  DapDSNumberInputReact,
+  DapDSOfficialWebsiteBannerReact,
+  DapDSOptionItemReact,
+  DapDSOptionListReact,
+  DapDSOverlayReact,
+  DapDSPagerReact,
+  DapDSPasswordInputReact,
+  DapDSPopupReact,
+  DapDSRadioButtonReact,
+  DapDSRadioGroupReact,
+  DapDSRatingReact,
+  DapDSScrollAreaReact,
+  DapDSSearchReact,
+  DapDSSelectReact,
+  DapDSSideNavGroupReact,
+  DapDSSideNavItemReact,
+  DapDSSideNavReact,
+  DapDSSkeletonReact,
+  DapDSSkipLinkReact,
+  DapDSSnackbarMessageReact,
+  DapDSSnackbarReact,
+  DapDSSpinnerReact,
+  DapDSStackReact,
+  DapDSSwitchReact,
+  DapDSTOCReact,
+  DapDSTabGroupReact,
+  DapDSTabReact,
+  DapDSTableCellReact,
+  DapDSTableHeaderReact,
+  DapDSTableReact,
+  DapDSTableRowReact,
+  DapDSTextareaReact,
+  DapDSTimeGridReact,
+  DapDSTimePickerReact,
+  DapDSTimelineItemReact,
+  DapDSTimelineReact,
+  DapDSToggleButtonReact,
+  DapDSTooltipReact,
+  DapDSTrayReact,
+  DapDSTypographyReact,
+  DesignEditLineReact,
+  DesignToolsLineReact,
+  DeviceComputerLineReact,
+  DocumentClipboardLineReact,
+  DocumentFileCopyLineReact,
+  DocumentFileImageLineReact,
+  DocumentFileMusicLineReact,
+  DocumentFileTextLineReact,
+  DocumentFileVideoLineReact,
+  DocumentFolderLineReact,
+  DocumentFolderOpenLineReact,
+  HealthHeartFillReact,
+  HealthHeartLineReact,
+  OthersCookieLineReact,
+  SystemAddLineReact,
+  SystemAlertFillReact,
+  SystemAlertLineReact,
+  SystemCheckLine2React,
+  SystemCheckLineReact,
+  SystemCheckboxBlankCircleFillCheckReact,
+  SystemCheckboxBlankCircleFillReact,
+  SystemCheckboxBlankCircleLineReact,
+  SystemCheckboxCircleFillReact,
+  SystemCheckboxCircleLineReact,
+  SystemCloseCircleFillReact,
+  SystemCloseCircleLineReact,
+  SystemCloseFillReact,
+  SystemCloseLineReact,
+  SystemDeleteBinFillReact,
+  SystemDeleteBinLineReact,
+  SystemDownloadLineReact,
+  SystemErrorWarningFillReact,
+  SystemErrorWarningLineReact,
+  SystemExternalLinkLineReact,
+  SystemEyeLineReact,
+  SystemEyeOffLineReact,
+  SystemForbidFillReact,
+  SystemInformation2FillReact,
+  SystemInformationFillReact,
+  SystemInformationLineReact,
+  SystemLightbulbFillReact,
+  SystemLoadingSpinnerReact,
+  SystemLockFillReact,
+  SystemLockLineReact,
+  SystemMenuLineReact,
+  SystemMenuLineSReact,
+  SystemMore2LineReact,
+  SystemMoreLineReact,
+  SystemSearchLineReact,
+  SystemShareLineReact,
+  SystemShieldCheckFillReact,
+  SystemShieldCheckLineReact,
+  SystemStarFillReact,
+  SystemSubtractLine2React,
+  SystemSubtractLineReact,
+  SystemTimeFillReact,
+  SystemTimeLineReact,
+  SystemUpload2FillReact,
+  SystemUpload2LineReact,
+  SystemUploadLineReact,
+  UserAccountCircleFillReact,
+  UserAccountCircleLineReact,
+  UserUserFillReact,
+  UserUserLineReact
 };
 //# sourceMappingURL=react.js.map
